@@ -26,7 +26,7 @@ composer.json
 
 สำหรับการเริ่มต้นสร้าง package เราไม่จำเป็นที่จะต้องวาง package ของเราเอาไว้ใน laravel project folder ก็ได้
 
-ผมแนะนำให้เราสร้าง folder package วางไว้ในระดับเดียวกันกับ folder ของ laravel project ที่เราจะเอาไว้ใช้ทดสอบ package ของเราฃ
+ผมแนะนำให้เราสร้าง folder package วางไว้ในระดับเดียวกันกับ folder ของ laravel project ที่เราจะเอาไว้ใช้ทดสอบ package ของเรา
 
 ตัวอย่างเช่น ผมสร้าง package เอาไว้ที่ `~/packges/` โดยที่ตัว folder ของ laravel ผมก็วางเอาไว้ที่ระดับเดียวกันกับ package ก็ได้ `~/laravel-website`
 
@@ -60,7 +60,7 @@ composer.json
 }
 ```
 
-จากนั้นเราต้องทำการเรียกคำสั่ง composer require เพื่อเพ่ิม package ที่เรากำลังทำการพัฒนาให้เข้ามารวมอยู่ใน autoload ด้วยคำสั่งด้านล่างนี้ครับ 
+จากนั้นเราต้องทำการเรียกคำสั่ง composer require เพื่อเพิ่ม package ที่เรากำลังทำการพัฒนาให้เข้ามารวมอยู่ใน autoload ด้วยคำสั่งด้านล่างนี้ครับ 
 
 > ชื่อของ pacakge ก็ตามที่เราตั้งเอาไว้ใน `composer.json` เลยครับ เช่นของผมตั้งไว้ว่า 
 > 
