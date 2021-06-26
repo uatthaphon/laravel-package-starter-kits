@@ -65,7 +65,7 @@ composer.json
 > ชื่อของ pacakge ก็ตามที่เราตั้งเอาไว้ใน `composer.json` เลยครับ เช่นของผมตั้งไว้ว่า 
 > 
 ```json
-// laravel-website/composer.json
+// /packages/my-package/composer.json
 
 {
     "name": "uatthaphon/packagename"
